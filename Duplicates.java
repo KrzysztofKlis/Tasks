@@ -17,10 +17,9 @@ public class Duplicates {
 
         System.out.println(Arrays.toString(array1));
         System.out.println(Arrays.toString(array2));
-        
+
         int[][] arrayOfDuplicates = {checkDuplicates(array1), checkDuplicates(array2)};
-        System.out.println(Arrays.toString(checkDuplicates(array1)));
-        System.out.println(Arrays.toString(checkDuplicates(array2)));
+        System.out.println(Arrays.deepToString(arrayOfDuplicates));
     }
 
     static int[] checkDuplicates(int[] array) {
